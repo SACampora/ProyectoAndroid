@@ -1,6 +1,8 @@
 package com.example.evaluacin1;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
@@ -8,6 +10,7 @@ import android.view.View;
 import android.widget.Toast;
 import android.view.View;
 import android.widget.Button;
+
 
 
 public class MainActivity extends AppCompatActivity {
@@ -19,12 +22,15 @@ public class MainActivity extends AppCompatActivity {
 
 
 
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         entrar=(Button)findViewById(R.id.boton);
         historia=(Button)findViewById(R.id.boton2);
+
 
         entrar.setOnClickListener(new View.OnClickListener(){
 
@@ -53,10 +59,15 @@ public class MainActivity extends AppCompatActivity {
 
         } );
 
+
+
+
+
+
     }
 
 
-   public void Entraste(View view) {
-        Toast.makeText(this, "entraste", Toast.LENGTH_SHORT).show();
-    }
+                    //public void Entraste(View view) {
+                        //Toast.makeText(this, "entraste", Toast.LENGTH_SHORT).show();
+                 //}
     }

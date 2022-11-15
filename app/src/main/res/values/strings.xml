@@ -1,4 +1,10 @@
 <resources>
     <string name="app_name">Evaluación1</string>
     <string name="descripcion" />
+    <string name="ingresar">INGRESAR</string>
+    <string name="bienvenido_a">BIENVENIDO A</string>
+    <string name="artebox">ARTEBOX</string>
+    <string name="galeria">GALERIA</string>
+    <string name="historia">HISTORIA</string>
+    <string name="creado_por_sebasti_n_acevedo">Creado por Sebastián Acevedo</string>
 </resources>
