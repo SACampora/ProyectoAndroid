@@ -11,17 +11,17 @@ import android.widget.Toast;
 import android.view.View;
 import android.widget.Button;
 
+import com.google.android.material.snackbar.Snackbar;
+
+import java.time.Duration;
 
 
 public class MainActivity extends AppCompatActivity {
     /**
      *Botón de entrar
      */
-    Button entrar;
-    Button historia;
-
-
-
+    private Button entrar;
+    private Button historia;
 
 
     @Override
@@ -30,7 +30,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         entrar=(Button)findViewById(R.id.boton);
         historia=(Button)findViewById(R.id.boton2);
-
+        Snackbar snackbar=Snackbar.make(findViewById(R.id.rootLayout),"Hola te esperabamos",Snackbar.LENGTH_LONG);
+        snackbar.show();
 
         entrar.setOnClickListener(new View.OnClickListener(){
 
@@ -39,6 +40,7 @@ public class MainActivity extends AppCompatActivity {
 
                 Intent i = new Intent( MainActivity.this, Carrusel.class);
                 startActivity(i);
+
 
             }
 
@@ -51,6 +53,7 @@ public class MainActivity extends AppCompatActivity {
 
                 Intent a = new Intent( MainActivity.this, Info.class);
                 startActivity(a);
+
 
             }
 

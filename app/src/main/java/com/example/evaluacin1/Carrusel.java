@@ -9,6 +9,8 @@ import android.widget.ImageView;
 import android.widget.ViewFlipper;
 import android.content.Context;
 
+import com.google.android.material.snackbar.Snackbar;
+
 
 public class Carrusel extends AppCompatActivity {
 
@@ -19,6 +21,9 @@ public class Carrusel extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_carrusel);
+        Snackbar snackbar=Snackbar.make(findViewById(R.id.rootLayout),"Acá podrás ver muchas obras de arte, solo espera no te salgas!",Snackbar.LENGTH_LONG);
+        snackbar.show();
+
 
         int images [] ={R.drawable.david, R.drawable.dali,R.drawable.frida,R.drawable.mona};
         flipper = findViewById(R.id.flipper);
@@ -43,5 +48,8 @@ public class Carrusel extends AppCompatActivity {
         flipper.setOutAnimation(this, android.R.anim.slide_in_left);
 
 
+
     }
+
+
 }

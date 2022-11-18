@@ -7,11 +7,12 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.google.android.material.snackbar.Snackbar;
 
 
 public class Presentacion extends AppCompatActivity {
 
-     Button bienvenido;
+     private Button bienvenido;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,6 +28,8 @@ public class Presentacion extends AppCompatActivity {
                 Intent e;
                 e = new Intent( Presentacion.this, MainActivity.class);
                 startActivity(e);
+
+
 
             }
 
