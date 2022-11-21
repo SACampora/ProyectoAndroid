@@ -2,18 +2,13 @@ package com.example.evaluacin1;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.annotation.SuppressLint;
-import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Toast;
-import android.view.View;
 import android.widget.Button;
 
+import com.example.evaluacin1.ui.login.Login;
 import com.google.android.material.snackbar.Snackbar;
-
-import java.time.Duration;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -22,6 +17,8 @@ public class MainActivity extends AppCompatActivity {
      */
     private Button entrar;
     private Button historia;
+    private Button ubicacion;
+    private Button opiniones;
 
 
     @Override
@@ -30,6 +27,10 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         entrar=(Button)findViewById(R.id.boton);
         historia=(Button)findViewById(R.id.boton2);
+        ubicacion=(Button)findViewById(R.id.boton3);
+        opiniones=(Button)findViewById(R.id.boton4);
+
+
         Snackbar snackbar=Snackbar.make(findViewById(R.id.rootLayout),"Hola te esperabamos",Snackbar.LENGTH_LONG);
         snackbar.show();
 
@@ -61,6 +62,40 @@ public class MainActivity extends AppCompatActivity {
 
 
         } );
+
+
+        ubicacion.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View b){
+
+                Intent m = new Intent( MainActivity.this, Mapa.class);
+                startActivity(m);
+
+
+            }
+
+
+
+
+        } );
+
+
+
+        opiniones.setOnClickListener(new View.OnClickListener(){
+
+            @Override
+            public void onClick(View sq){
+
+                Intent q = new Intent( MainActivity.this, Sqlite.class);
+                startActivity(q);
+
+
+            }
+
+
+
+        });
+
 
 
 

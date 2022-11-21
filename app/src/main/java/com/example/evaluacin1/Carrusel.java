@@ -1,13 +1,9 @@
 package com.example.evaluacin1;
-import android.content.Context;
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.content.Context;
 import android.os.Bundle;
-import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.ViewFlipper;
-import android.content.Context;
 
 import com.google.android.material.snackbar.Snackbar;
 
@@ -41,7 +37,7 @@ public class Carrusel extends AppCompatActivity {
         imageView.setBackgroundResource(image);
 
         flipper.addView(imageView);
-        flipper.setFlipInterval(5000);
+        flipper.setFlipInterval(3000);
         flipper.setAutoStart(true);
 
         //flipper.setAnimation(this, android.R.anim.slide_out_right);
