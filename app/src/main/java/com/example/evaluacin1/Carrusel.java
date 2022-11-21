@@ -41,7 +41,7 @@ public class Carrusel extends AppCompatActivity {
         imageView.setBackgroundResource(image);
 
         flipper.addView(imageView);
-        flipper.setFlipInterval(5000);
+        flipper.setFlipInterval(3000);
         flipper.setAutoStart(true);
 
         //flipper.setAnimation(this, android.R.anim.slide_out_right);

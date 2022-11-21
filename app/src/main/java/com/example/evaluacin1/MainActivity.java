@@ -22,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
      */
     private Button entrar;
     private Button historia;
+    private Button ubicacion;
 
 
     @Override
@@ -30,6 +31,9 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         entrar=(Button)findViewById(R.id.boton);
         historia=(Button)findViewById(R.id.boton2);
+        ubicacion=(Button)findViewById(R.id.boton3);
+
+
         Snackbar snackbar=Snackbar.make(findViewById(R.id.rootLayout),"Hola te esperabamos",Snackbar.LENGTH_LONG);
         snackbar.show();
 
@@ -53,6 +57,22 @@ public class MainActivity extends AppCompatActivity {
 
                 Intent a = new Intent( MainActivity.this, Info.class);
                 startActivity(a);
+
+
+            }
+
+
+
+
+        } );
+
+
+        ubicacion.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View b){
+
+                Intent m = new Intent( MainActivity.this, Mapa.class);
+                startActivity(m);
 
 
             }

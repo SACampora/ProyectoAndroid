@@ -8,4 +8,5 @@
     <string name="historia">HISTORIA</string>
     <string name="creado_por_sebasti_n_acevedo">Creado por Sebastián Acevedo</string>
     <string name="title_activity_mapa">Mapa</string>
+    <string name="ubicacion" />
 </resources>
