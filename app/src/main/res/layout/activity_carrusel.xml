@@ -8,32 +8,16 @@
     android:id="@+id/rootLayout"
     >
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textColor="#FFFFFF"
-        android:textStyle="bold" />
 
-    <TextView
-        android:id="@+id/parrafo1"
-        android:layout_width="325dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="43dp"
-        android:layout_marginTop="442dp"
-        android:layout_marginEnd="43dp"
-        android:layout_marginBottom="390dp"
-        android:textColor="#FF0303"
-        android:textSize="24sp"
-        android:textStyle="bold" />
 
     <ViewFlipper
         android:id="@+id/flipper"
         android:layout_width="wrap_content"
-        android:layout_height="900dp" />
+        android:layout_height="900dp"
+        />
+
+
+
 </RelativeLayout>
 
 

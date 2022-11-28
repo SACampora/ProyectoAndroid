@@ -12,6 +12,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import com.google.android.material.snackbar.Snackbar;
+
 public class Sqlite extends AppCompatActivity {
 
     private EditText ed_nombre,ed_apellido,ed_edad;
@@ -21,6 +23,9 @@ public class Sqlite extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sqlite);
+        Snackbar snackbar=Snackbar.make(findViewById(R.id.rootLayout),"Déjanos tus comentarios",Snackbar.LENGTH_LONG);
+        snackbar.show();
+
 
         ed_nombre = findViewById(R.id.et_nombre);
         ed_apellido = findViewById(R.id.et_apellido);

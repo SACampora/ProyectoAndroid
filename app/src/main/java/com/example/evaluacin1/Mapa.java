@@ -4,13 +4,14 @@ import androidx.fragment.app.FragmentActivity;
 
 import android.os.Bundle;
 
+import com.example.evaluacin1.databinding.ActivityMapaBinding;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
-import com.example.evaluacin1.databinding.ActivityMapaBinding;
+
 
 public class Mapa extends FragmentActivity implements OnMapReadyCallback {
 
@@ -45,7 +46,10 @@ public class Mapa extends FragmentActivity implements OnMapReadyCallback {
 
         // Add a marker in Sydney and move the camera
         LatLng sydney = new LatLng(-33.4659584, -70.6510848);
-        mMap.addMarker(new MarkerOptions().position(sydney).title("Por aca"));
+        mMap.addMarker(new MarkerOptions().position(sydney).title("Aquí estamos"));
         mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney));
+
+        //44.066972007686, 10.072975933790426
+        //(-33.4659584, -70.6510848);
     }
 }

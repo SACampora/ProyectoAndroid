@@ -8,9 +8,10 @@
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
-        android:icon="@mipmap/ic_launcherartebox"
+
         android:label="@string/artebox"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:icon="@mipmap/ic_arteboxxx"
+        android:roundIcon="@mipmap/ic_arteboxxx"
         android:supportsRtl="true"
         android:theme="@style/Theme.Evaluación1"
         tools:targetApi="31">
