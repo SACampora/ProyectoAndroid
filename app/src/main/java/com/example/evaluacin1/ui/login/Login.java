@@ -23,17 +23,9 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.evaluacin1.Carrusel;
-import com.example.evaluacin1.MainActivity;
 import com.example.evaluacin1.Presentacion;
 import com.example.evaluacin1.R;
-import com.example.evaluacin1.Sqlite;
 import com.example.evaluacin1.databinding.ActivityLoginBinding;
-import android.widget.Button;
-import android.content.Intent;
-import android.os.Bundle;
-import android.view.View;
-import android.widget.Button;
 
 public class Login extends AppCompatActivity {
 

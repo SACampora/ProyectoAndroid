@@ -21,7 +21,7 @@ public class Carrusel extends AppCompatActivity {
         snackbar.show();
 
 
-        int images [] ={R.drawable.david, R.drawable.dali,R.drawable.frida,R.drawable.mona};
+        int images [] ={R.drawable.davidd, R.drawable.dalii,R.drawable.fridaa,R.drawable.monaa,R.drawable.girasoles};
         flipper = findViewById(R.id.flipper);
         for (int image: images){
         flipperImages(image);

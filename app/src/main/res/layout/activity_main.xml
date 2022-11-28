@@ -89,16 +89,40 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.944" />
 
-    <ProgressBar
-        android:id="@+id/progressBar2"
-        style="?android:attr/progressBarStyle"
+    <Button
+        android:id="@+id/boton4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="#03A9F4"
+        android:fontFamily="@font/acme"
+
+
+        android:text="@string/opiniones"
+        android:textColor="#4A148C"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.513"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/boton"
-        tools:ignore="MissingConstraints" />
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.799" />
+
+
+    <Button
+        android:id="@+id/boton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#03A9F4"
+        android:fontFamily="@font/acme"
+
+
+        android:text="@string/title_activity_mapa"
+        android:textColor="#4A148C"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.529"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.611" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
