@@ -22,7 +22,7 @@ public class Splashhh extends Activity {
             public void run() {
 
                 //Intent intent = new Intent(Splash.this,MainActivity.class);
-                Intent intent = new Intent(Splashhh.this, Login.class);
+                Intent intent = new Intent(Splashhh.this, LoginActivity2.class);
                 startActivity(intent);
                 finish();
 

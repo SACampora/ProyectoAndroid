@@ -18,5 +18,7 @@
     <string name="invalid_username">Ingresa solo tu nombre</string>
     <string name="invalid_password">Ingresa tu clave</string>
     <string name="login_failed">"Denuevo por favor"</string>
-    <string name="opiniones" > OPINIONES </string>/>
+    <string name="opiniones"> OPINIONES </string>/>
+    <string name="MAIN">MAIN</string>
+    <string name="LOGIN">LOGIN</string>
 </resources>

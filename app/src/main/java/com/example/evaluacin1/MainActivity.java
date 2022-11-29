@@ -18,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
     private Button historia;
     private Button ubicacion;
     private Button opiniones;
+    private Button loginn;
 
 
     @Override
@@ -28,6 +29,7 @@ public class MainActivity extends AppCompatActivity {
         historia=(Button)findViewById(R.id.boton2);
         ubicacion=(Button)findViewById(R.id.boton3);
         opiniones=(Button)findViewById(R.id.boton4);
+        loginn=(Button)findViewById(R.id.boton6);
 
 
         Snackbar snackbar=Snackbar.make(findViewById(R.id.rootLayout),"Hola te esperabamos",Snackbar.LENGTH_LONG);
@@ -86,6 +88,22 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View sq){
 
                 Intent q = new Intent( MainActivity.this, Sqlite.class);
+                startActivity(q);
+
+
+            }
+
+
+
+        });
+
+
+        loginn.setOnClickListener(new View.OnClickListener(){
+
+            @Override
+            public void onClick(View sq){
+
+                Intent q = new Intent( MainActivity.this, LoginActivity2.class);
                 startActivity(q);
 
 

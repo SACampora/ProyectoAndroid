@@ -26,6 +26,9 @@ import android.widget.Toast;
 import com.example.evaluacin1.Presentacion;
 import com.example.evaluacin1.R;
 import com.example.evaluacin1.databinding.ActivityLoginBinding;
+import com.google.firebase.FirebaseApiNotAvailableException;
+import com.google.firebase.auth.FirebaseAuth;
+
 
 public class Login extends AppCompatActivity {
 
@@ -33,10 +36,12 @@ public class Login extends AppCompatActivity {
     private ActivityLoginBinding binding;
 
 
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
+
 
 
         binding = ActivityLoginBinding.inflate(getLayoutInflater());

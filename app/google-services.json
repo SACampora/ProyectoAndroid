@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "936183922525",
+    "project_id": "artebox",
+    "storage_bucket": "artebox.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:936183922525:android:f1db01cde1df61fab7f2b4",
+        "android_client_info": {
+          "package_name": "com.calam.evaluacin1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "936183922525-13i1573gk00d1j59uqp9g9ar3aetc8h3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDAt-nRZbWm-qKSv-FNX61gbnZfYOzmfOw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "936183922525-13i1573gk00d1j59uqp9g9ar3aetc8h3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
